@@ -180,7 +180,7 @@ module.exports = function (babel) {
           return
         }
 
-        var filename = state.file.log.filename
+        var filename = state.file.opts.filename
         var cwd = dirname(filename)
         var env = {
           cwd: cwd
